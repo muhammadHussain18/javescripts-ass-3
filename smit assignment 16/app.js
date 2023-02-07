@@ -1,4 +1,4 @@
-
+       // chapter # 5
 
 // // Qno#1
 
@@ -168,15 +168,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 // // Qno#13
  
 // document.write("<h1> The lifetime supply caclulator</h1>")
@@ -187,4 +178,121 @@
 // var perDay = 3
 // var lifeTime = (estAge - currAge) * 356 * 3
 // document.write("favorite snaks:" + " " + favSnack + "<br />" + "current age:" + " " + currAge + "<br />" + "estimated maximum :" + " " + estAge + "<br />" + "you will need"+" " + lifeTime +" "+ favSnack +" "+ "to last you until the ripe old age of" +" "+ estAge)
+
+
+
+
+        // chapter # 6-9
+
+// // Qno# 1
+
+// document.write("<h1> Result :</h1>")
+// var a = 10
+// document.write("The value of a is " +" "+ a + "<br />")
+
+
+// document.write("................................"  + "<br />")
+// document.write("The value of ++a is : " + " " + ++a  + "<br />")
+// document.write("now the value of a is a :" +" " + a  + "<br />")
+
+
+// document.write("This is the value of a++ is :" + " " + a++  + "<br />")
+// document.write("Now the value of a is :" + " " + a  + "<br />") 
+
+
+// document.write("the value of --a is:" +" "+ --a   + "<br />")
+// document.write("Now the value of a is :" + " " + a  + "<br />") 
+
+
+// document.write(" The value of a-- is:" +" " + a--   + "<br />")
+// document.write("Now the value of a is :" + " " + a  + "<br />") 
+
+
+// // Qno# 2
+
+// var a = 2
+// var b = 1
+// var result = --a - --b + ++b + b--;
+
+// document.write( "a is " +" " + a + "<br />" )
+// document.write( "b is " +" " + b + "<br />" )
+// document.write( "Result is" + " " + result)
+
+ 
+// // Qno# 3
+
+
+// var name = prompt("enter your name")
+
+
+// // Qno# 4
+
+
+// var tab = prompt("enter your number")
+// if( tab === ""  ) {
+//         tab=5
+// }
+      
+// var num=1
+// var result= tab*num
+// document.write("Table of " + " " + tab + "<br />")
+// document.write(tab + " x " + num+ " = " + " " + result +"<br />")
+
+
+// var num=2
+// var result=tab*num
+// document.write(tab + " x " + num+ " = " + " " + result +"<br />" )
+
+
+// var num=3
+// var result=tab*num
+// document.write(tab + " x " + num+ " = " + " " + result + "<br />" )
+
+
+// var num=4
+// var result=tab*num
+// document.write(tab + " x " + num+ " = " + " " + result + "<br />" )
+
+
+// var num=5
+// var result=tab*num
+// document.write(tab + " x " + num+ " = " + " " + result + "<br />" )
+
+// var num=6
+// var result= tab*num
+// document.write(tab + " x " + num+ " = " + " " + result +"<br />")
+
+// var num=7
+// var result= tab*num
+// document.write(tab + " x " + num+ " = " + " " + result +"<br />")
+
+// var num=8
+// var result= tab*num
+// document.write(tab + " x " + num+ " = " + " " + result +"<br />")
+
+// var num=9
+// var result= tab*num
+// document.write(tab + " x " + num+ " = " + " " + result +"<br />")
+
+// var num=10
+// var result= tab*num
+// document.write(tab + " x " + num+ " = " + " " + result +"<br />")
+
+
+// Qno# 5
+
+var sub1 = prompt("enter your subject 1")
+var sub2 = prompt("enter your subject 2")
+var sub3 = prompt("enter your subject 3")
+var totalMarks = 300
+var obtSub1 = prompt("enter you obtained marks")
+var obtSub2 = prompt("enter you obtained marks")
+var obtSub3 = prompt("enter you obtained marks")
+
+var totalObt = obtSub1 + obtSub2 + obtSub3 ;
+var percentage = (totalObt / totalMarks) * 100
+
+
+document.write( "your percentage is " + " "+ percentage +" "+ "%") 
+
 
